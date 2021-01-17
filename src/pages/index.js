@@ -29,13 +29,13 @@ const IndexPage = ({ data }) => (
           websites, automate processes and product management work.
         </p>
         <div className="flex flex-col justify-center w-full mb-5 md:flex-row header-services">
-          <div className="px-4 py-2 mb-4 overflow-hidden font-bold border-2 border-black rounded-lg md:mb-0 md:mr-4 shadow-flat header-service">
+          <div className="px-4 py-2 mb-4 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn md:mb-0 md:mr-4 header-service">
             User Research
           </div>
-          <div className="px-4 py-2 mb-4 overflow-hidden font-bold border-2 border-black rounded-lg md:mb-0 md:mr-4 shadow-flat header-service">
+          <div className="px-4 py-2 mb-4 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn md:mb-0 md:mr-4 header-service">
             MVP & Prototyping
           </div>
-          <div className="px-4 py-2 overflow-hidden font-bold border-2 border-black rounded-lg shadow-flat header-service">
+          <div className="px-4 py-2 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn header-service">
             Product Management
           </div>
         </div>
@@ -52,17 +52,17 @@ const IndexPage = ({ data }) => (
       <h2 className="text-2xl font-medium text-center text-gray-500 validation-header">
         Trusted by companies small and large
       </h2>
-      <div className="grid justify-around max-w-screen-lg grid-cols-2 gap-2 mx-auto text-center md:grid-cols-4 company-images">
-        <div className="p-2 font-bold bg-gray-100 rounded company-image">
+      <div className="grid justify-around max-w-screen-lg grid-cols-2 gap-1 mx-auto text-center company-images">
+        <div className="p-10 text-lg font-bold text-gray-500 rounded bg-gray-50 company-image">
           Homerun
         </div>
-        <div className="p-2 font-bold bg-gray-100 rounded company-image">
+        <div className="p-10 text-lg font-bold text-gray-500 rounded bg-gray-50 company-image">
           Backbase
         </div>
-        <div className="p-2 font-bold bg-gray-100 rounded company-image">
+        <div className="p-10 text-lg font-bold text-gray-500 rounded bg-gray-50 company-image">
           Bravely
         </div>
-        <div className="p-2 font-bold bg-gray-100 rounded company-image">
+        <div className="p-10 text-lg font-bold text-gray-500 rounded bg-gray-50 company-image">
           Fox-it
         </div>
       </div>
@@ -115,65 +115,60 @@ const IndexPage = ({ data }) => (
         </div>
       </div>
     </section>
-    <section className="max-w-screen-xl mx-auto my-12 projects">
-      <h2 className="text-4xl text-center">Projects</h2>
-      <div className="grid md:grid-cols-3 projects-container ">
-        <div
-          className="flex flex-col px-4 py-12 mx-8 mb-8 rounded-xl project-container"
-          style={{ background: 'var(--primary-bg)' }}
-        >
-          <h3 className="text-lg">Recipeboard</h3>
-          <div className="project-image-container">
+    <section className="mx-4 my-12 rounded projects">
+      <h2 className="text-5xl text-center">Projects</h2>
+      <div className="py-8 lg:px-32 ">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
+          <div className="relative mb-4 rounded h-96 project-image-container">
             <Img
-              className="rounded-xl"
-              fluid={data.portraitToon.childImageSharp.fluid}
-              alt="preview of project"
+              className="w-full h-full mx-auto rounded-lg"
+              fluid={data.projectImage1.childImageSharp.fluid}
+              alt="An astronaut"
             />
           </div>
-          <button
-            className="py-4 mt-4 text-lg font-bold text-white bg-black rounded"
-            type="button"
-          >
-            Read more
-          </button>
+          <h3 className="m-0">Project 1</h3>
+          <p className="text-gray-700 project-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            qui natus error veritatis, commodi quae, iure quasi aliquid, libero
+            fuga quis dicta eos ipsa magnam ipsam voluptatem aliquam vitae
+            velit?
+          </p>
         </div>
-        <div
-          className="flex flex-col px-4 py-12 mx-8 mb-8 rounded-xl project-container"
-          style={{ background: 'var(--primary-bg)' }}
-        >
-          <h3 className="text-lg">Job Dispatch</h3>
-          <div className="project-image-container">
+      </div>
+      <div className="py-8 lg:px-32 ">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
+          <div className="relative mb-4 rounded h-96 project-image-container">
             <Img
-              className="rounded-xl"
-              fluid={data.portraitToon.childImageSharp.fluid}
-              alt="preview of project"
+              className="w-full h-full mx-auto rounded-lg"
+              fluid={data.projectImage1.childImageSharp.fluid}
+              alt="An astronaut"
             />
           </div>
-          <button
-            className="py-4 mt-4 text-lg font-bold text-white bg-black rounded"
-            type="button"
-          >
-            Read more
-          </button>
+          <h3 className="m-0">Project 1</h3>
+          <p className="text-gray-700 project-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            qui natus error veritatis, commodi quae, iure quasi aliquid, libero
+            fuga quis dicta eos ipsa magnam ipsam voluptatem aliquam vitae
+            velit?
+          </p>
         </div>
-        <div
-          className="flex flex-col px-4 py-12 mx-8 mb-8 rounded-xl project-container"
-          style={{ background: 'var(--primary-bg)' }}
-        >
-          <h3 className="text-lg">Meetbravely.co</h3>
-          <div className="project-image-container">
+      </div>
+      <div className="py-8 lg:px-32 ">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
+          <div className="relative mb-4 rounded h-96 project-image-container">
             <Img
-              className="rounded-xl"
-              fluid={data.portraitToon.childImageSharp.fluid}
-              alt="preview of project"
+              className="w-full h-full mx-auto rounded-lg"
+              fluid={data.projectImage1.childImageSharp.fluid}
+              alt="An astronaut"
             />
           </div>
-          <button
-            className="py-4 mt-4 text-lg font-bold text-white bg-black rounded"
-            type="button"
-          >
-            Read more
-          </button>
+          <h3 className="m-0">Project 1</h3>
+          <p className="text-gray-700 project-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            qui natus error veritatis, commodi quae, iure quasi aliquid, libero
+            fuga quis dicta eos ipsa magnam ipsam voluptatem aliquam vitae
+            velit?
+          </p>
         </div>
       </div>
     </section>
@@ -292,15 +287,21 @@ const IndexPage = ({ data }) => (
         </ResponsiveMasonry>
       </div>
     </section>
-    <section className="grid items-center p-4 my-12 xl:gap-12 xl:p-8 xl:grid-cols-2 offering">
-      <div className="mx-auto text-center max lg:max-w-md offering-header">
-        <h2 className="text-4xl">Let's talk</h2>
+    <section className="grid items-center p-4 my-12 lg:gap-12 lg:p-8 lg:grid-cols-2 offering">
+      <div className="mx-auto text-center lg:max-w-md offering-header">
+        <h2 className="text-5xl">Let's talk</h2>
         <p className="max-w-lg text-lg text-gray-700">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit deserunt
           corrupti, ab provident in voluptatem officiis voluptates soluta,
           perspiciatis praesentium corporis ipsum culpa ullam error consequuntur
           voluptate quo doloribus dolores.
         </p>
+        <button
+          className="px-4 py-2 mx-auto font-semibold text-gray-100 bg-black rounded md:mx-8 md:my-4 md:w-auto "
+          type="button"
+        >
+          GET IN TOUCH 🚀
+        </button>
         {/* <div className="w-2/5 mx-auto">
           <div className="flex items-center gap-4 mb-4 question-block">
             <div className="w-8 h-8 bg-gray-100 rounded-sm question-image-container" />
@@ -316,8 +317,8 @@ const IndexPage = ({ data }) => (
           </div>
         </div> */}
       </div>
-      <div className="grid offering-list">
-        <div className="p-4 my-2 transition-shadow duration-300 ease-in-out border-2 border-black rounded-lg offering-container">
+      <div className="grid max-w-lg mx-auto offering-list">
+        <div className="p-4 my-2 border-2 border-black rounded-lg shadow-flat offering-container">
           <span className="px-2 py-1 font-bold text-white bg-yellow-500 rounded question-tag">
             Free
           </span>
@@ -330,7 +331,7 @@ const IndexPage = ({ data }) => (
             <p>Note: I only do a few of those each month.</p>
           </div>
         </div>
-        <div className="p-4 my-2 transition-shadow duration-300 ease-in-out border-2 border-black rounded-lg offering-container">
+        <div className="p-4 my-2 border-2 border-black rounded-lg shadow-flat offering-container">
           <span className="px-2 py-1 font-bold text-white bg-yellow-500 rounded question-tag">
             1 - 2 weeks
           </span>
@@ -343,7 +344,7 @@ const IndexPage = ({ data }) => (
             </p>
           </div>
         </div>
-        <div className="p-4 my-2 transition-shadow duration-300 ease-in-out border-2 border-black rounded-lg offering-container">
+        <div className="p-4 my-2 border-2 border-black rounded-lg shadow-flat offering-container">
           <span className="px-2 py-1 font-bold text-white bg-yellow-500 rounded question-tag">
             1+ week
           </span>
@@ -355,7 +356,7 @@ const IndexPage = ({ data }) => (
             </p>
           </div>
         </div>
-        <div className="p-4 my-2 transition-shadow duration-300 ease-in-out border-2 border-black rounded-lg offering-container">
+        <div className="p-4 my-2 border-2 border-black rounded-lg shadow-flat offering-container">
           <span className="px-2 py-1 font-bold text-white bg-yellow-500 rounded question-tag">
             3+ weeks
           </span>
@@ -367,12 +368,6 @@ const IndexPage = ({ data }) => (
             </p>
           </div>
         </div>
-        <button
-          className="py-4 mx-auto font-bold text-white bg-black rounded w-44 md:mx-8 md:my-4 md:w-auto "
-          type="button"
-        >
-          GET IN TOUCH 🚀
-        </button>
       </div>
     </section>
   </Layout>
@@ -390,6 +385,9 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     portraitBarbara: file(relativePath: { eq: "barbara_galiza.jpg" }) {
+      ...fluidImage
+    }
+    projectImage1: file(relativePath: { eq: "project-placeholder.jpg" }) {
       ...fluidImage
     }
   }
