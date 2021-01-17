@@ -186,7 +186,7 @@ const IndexPage = ({ data }) => (
             Excepturi, ex expedita.
           </p>
         </div>
-        <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 860: 2 }}>
+        <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 768: 2 }}>
           <Masonry className="max-w-2xl mx-auto">
             <div className="max-w-xs p-4 m-4 mx-auto bg-white quote-container rounded-xl">
               <div className="quote-text">
@@ -219,7 +219,7 @@ const IndexPage = ({ data }) => (
                 </div>
               </div>
             </div>
-            <div className="max-w-xs p-4 m-4 mx-auto bg-white quote-container md:mt-32 rounded-xl">
+            <div className="max-w-xs p-4 m-4 mx-auto bg-white quote-container md:mt-16 rounded-xl">
               <div className="quote-text">
                 <p>
                   I worked with Toon at Homerun for a very enjoyable 1,5 years.
