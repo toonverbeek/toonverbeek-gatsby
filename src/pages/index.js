@@ -116,7 +116,8 @@ const IndexPage = ({ data }) => (
       </div>
     </section>
     <section className="mx-4 my-12 rounded projects">
-      <h2 className="text-5xl text-center">Projects</h2>
+      <h2 className="mb-4 text-5xl font-black text-center">Projects —</h2>
+      <h3 className="text-4xl text-center">I've worked on a few</h3>
       <div className="py-8 lg:px-32 ">
         <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
           <div className="relative mb-4 rounded h-96 project-image-container">
@@ -289,7 +290,7 @@ const IndexPage = ({ data }) => (
     </section>
     <section className="grid items-center p-4 my-12 lg:gap-12 lg:p-8 lg:grid-cols-2 offering">
       <div className="mx-auto text-center lg:max-w-md offering-header">
-        <h2 className="text-5xl">Let's talk</h2>
+        <h2 className="text-5xl">Let's talk —</h2>
         <p className="max-w-lg text-lg text-gray-700">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit deserunt
           corrupti, ab provident in voluptatem officiis voluptates soluta,
