@@ -12,9 +12,12 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <section className="container justify-center w-full p-4 mx-auto my-12 lg:p-8 hero-container">
       <div className="flex flex-col items-center max-w-screen-lg m-auto text-center ">
-        <div className="flex items-center text-white bg-black rounded-full logo w-14 h-14">
+        <div className="flex items-center mb-8 text-white bg-black rounded-full logo w-14 h-14">
           <span className="w-full text-lg font-bold text-center">TV</span>
         </div>
+        <span className="font-semibold text-gray-700 ">
+          Hi there 👋 I'm Toon
+        </span>
         <h1
           style={{ lineHeight: 1.3 }}
           className="text-4xl font-black text-black leading md:text-6xl header-title"
@@ -22,14 +25,14 @@ const IndexPage = ({ data }) => (
           Let's build something together
         </h1>
         <p className="max-w-xl text-xl leading-relaxed text-gray-600 header-subtitle">
-          I'm Toon. I’m a product engineer that helps people and companies build
-          MVPs and websites, automate processes and product management work.
+          I’m a product engineer that helps people and companies build MVPs and
+          websites, automate processes and product management work.
         </p>
-        <div className="flex flex-col justify-center w-full gap-4 mb-5 md:flex-row header-services">
-          <div className="px-4 py-2 overflow-hidden font-bold border-2 border-black rounded-lg shadow-flat header-service">
+        <div className="flex flex-col justify-center w-full mb-5 md:flex-row header-services">
+          <div className="px-4 py-2 mb-4 overflow-hidden font-bold border-2 border-black rounded-lg md:mb-0 md:mr-4 shadow-flat header-service">
             User Research
           </div>
-          <div className="px-4 py-2 overflow-hidden font-bold border-2 border-black rounded-lg shadow-flat header-service">
+          <div className="px-4 py-2 mb-4 overflow-hidden font-bold border-2 border-black rounded-lg md:mb-0 md:mr-4 shadow-flat header-service">
             MVP & Prototyping
           </div>
           <div className="px-4 py-2 overflow-hidden font-bold border-2 border-black rounded-lg shadow-flat header-service">
