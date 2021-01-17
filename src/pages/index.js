@@ -20,7 +20,7 @@ const IndexPage = ({ data }) => (
         </span>
         <h1
           style={{ lineHeight: 1.3 }}
-          className="text-4xl font-black text-black leading md:text-6xl header-title"
+          className="text-5xl font-black text-black leading md:text-6xl header-title"
         >
           Let's build something together
         </h1>
@@ -68,12 +68,36 @@ const IndexPage = ({ data }) => (
       </div>
     </section>
     <section className="max-w-screen-lg p-4 mx-auto my-12 lg:p-8 services">
-      <div className="grid gap-4 mx-auto md:grid-cols-2 services-grid">
+      <h2 className="text-5xl text-center">
+        I help companies across the stack
+      </h2>
+      <h3 className="max-w-lg mx-auto text-lg font-normal text-center text-gray-700 ">
+        With a background in software engineering and experience as a product
+        manager, I love helping companies bring their product to market
+        whichever way I can.
+      </h3>
+      <div className="w-10 h-10 py-2 mx-auto mb-20 text-center rounded-full bg-gray-50 ">
+        👇
+      </div>
+      <div className="grid justify-center gap-4 mx-auto md:grid-cols-2 services-grid">
         <div className="flex flex-col max-w-sm service-block">
           <div
-            className="w-16 h-16 rounded service-image-container"
+            className="flex items-center justify-center w-12 h-12 rounded service-image-container"
             style={{ background: 'var(--primary-opacity)' }}
-          />
+          >
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.42857 24.5714H7.92857V24.0714H7.42857V24.5714ZM7.42857 31H6.92857C6.92857 31.1894 7.03557 31.3625 7.20496 31.4472C7.37436 31.5319 7.57706 31.5136 7.72857 31.4L7.42857 31ZM16 24.5714V24.0714H15.8333L15.7 24.1714L16 24.5714ZM9.57143 9.07141H9.07143V10.0714H9.57143V9.07141ZM22.4286 10.0714H22.9286V9.07141H22.4286V10.0714ZM9.57143 15.5H9.07143V16.5H9.57143V15.5ZM18.1429 16.5H18.6429V15.5H18.1429V16.5ZM6.92857 24.5714V31H7.92857V24.5714H6.92857ZM7.72857 31.4L16.3 24.9714L15.7 24.1714L7.12857 30.6L7.72857 31.4ZM16 25.0714H28.8571V24.0714H16V25.0714ZM28.8571 25.0714C30.3183 25.0714 31.5 23.8897 31.5 22.4286H30.5C30.5 23.3374 29.766 24.0714 28.8571 24.0714V25.0714ZM31.5 22.4286V3.14282H30.5V22.4286H31.5ZM31.5 3.14282C31.5 1.68166 30.3183 0.5 28.8571 0.5V1.5C29.766 1.5 30.5 2.23397 30.5 3.14282H31.5ZM28.8571 0.5H3.14286V1.5H28.8571V0.5ZM3.14286 0.5C1.68173 0.5 0.5 1.68166 0.5 3.14282H1.5C1.5 2.23397 2.23399 1.5 3.14286 1.5V0.5ZM0.5 3.14282V22.4286H1.5V3.14282H0.5ZM0.5 22.4286C0.5 23.8897 1.68173 25.0714 3.14286 25.0714V24.0714C2.23399 24.0714 1.5 23.3374 1.5 22.4286H0.5ZM3.14286 25.0714H7.42857V24.0714H3.14286V25.0714ZM9.57143 10.0714H22.4286V9.07141H9.57143V10.0714ZM9.57143 16.5H18.1429V15.5H9.57143V16.5Z"
+                fill="black"
+              />
+            </svg>
+          </div>
           <h3>User Research & Interviews</h3>
           <p className="text-gray-500 service-description">
             I've spent a lot of time talking to users. My goal is to help you
@@ -82,9 +106,23 @@ const IndexPage = ({ data }) => (
         </div>
         <div className="flex flex-col max-w-sm service-block">
           <div
-            className="w-16 h-16 rounded service-image-container"
+            className="flex items-center justify-center w-12 h-12 rounded service-image-container"
             style={{ background: 'var(--primary-opacity)' }}
-          />
+          >
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 6.99609L15 1L29 6.99609M1 6.99609L15 12.9922M1 6.99609V7M29 6.99609L15 12.9922M29 6.99609V23L15 29M29 6.99609L15 13V29M15 12.9922V29M15 12.9922L1 7M15 29L1 23V7"
+                stroke="black"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
           <h3>Prototype & MVP</h3>
           <p className="text-gray-500 service-description">
             Have an idea? I’ve been building prototypes for nearly a decade. Let
@@ -93,9 +131,34 @@ const IndexPage = ({ data }) => (
         </div>
         <div className="flex flex-col max-w-sm service-block">
           <div
-            className="w-16 h-16 rounded service-image-container"
+            className="flex items-center justify-center w-12 h-12 rounded service-image-container"
             style={{ background: 'var(--primary-opacity)' }}
-          />
+          >
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 5C8.10457 5 9 5.89543 9 7C9 8.10457 8.10457 9 7 9C5.89543 9 5 8.10457 5 7C5 5.89543 5.89543 5 7 5Z"
+                stroke="black"
+              />
+              <path
+                d="M23 1H7C3.68629 1 1 3.68629 1 7C1 10.3137 3.68629 13 7 13H23C26.3137 13 29 10.3137 29 7C29 3.68629 26.3137 1 23 1Z"
+                stroke="black"
+              />
+              <path
+                d="M23 25C21.8954 25 21 24.1046 21 23C21 21.8954 21.8954 21 23 21C24.1046 21 25 21.8954 25 23C25 24.1046 24.1046 25 23 25Z"
+                stroke="black"
+              />
+              <path
+                d="M7 29H23C26.3137 29 29 26.3137 29 23C29 19.6863 26.3137 17 23 17L7 17C3.68629 17 1 19.6863 1 23C1 26.3137 3.68629 29 7 29Z"
+                stroke="black"
+              />
+            </svg>
+          </div>
           <h3>Product Management</h3>
           <p className="text-gray-500 service-description">
             What to build, for whom and when? If you’re building a digital
@@ -104,9 +167,23 @@ const IndexPage = ({ data }) => (
         </div>
         <div className="flex flex-col max-w-sm service-block">
           <div
-            className="w-16 h-16 rounded service-image-container"
+            className="flex items-center justify-center w-12 h-12 rounded service-image-container"
             style={{ background: 'var(--primary-opacity)' }}
-          />
+          >
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 15L17 15M22 8L17 14.9908L22 22M29 4.99739C29 7.20395 27.208 8.99478 25 8.99478C22.792 8.99478 21 7.20395 21 4.99739C21 2.79083 22.792 1 25 1C27.208 1 29 2.79083 29 4.99739ZM29 24.9843C29 27.1909 27.208 28.9817 25 28.9817C22.792 28.9817 21 27.1909 21 24.9843C21 22.7778 22.792 20.9869 25 20.9869C27.208 20.9869 29 22.7778 29 24.9843ZM9 14.9909C9 17.1974 7.208 18.9883 5 18.9883C2.792 18.9883 1 17.1974 1 14.9909C1 12.7843 2.792 10.9935 5 10.9935C7.208 10.9935 9 12.7843 9 14.9909Z"
+                stroke="black"
+                strokeLinecap="square"
+              />
+            </svg>
+          </div>
           <h3>Product Engineering</h3>
           <p className="text-gray-500 service-description">
             Looking to build your next set of features for your customers? I can
@@ -127,7 +204,7 @@ const IndexPage = ({ data }) => (
               alt="An astronaut"
             />
           </div>
-          <h3 className="m-0">Project 1</h3>
+          <h3 className="m-0 text-3xl">Recipeboard</h3>
           <p className="text-gray-700 project-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
             qui natus error veritatis, commodi quae, iure quasi aliquid, libero
@@ -145,7 +222,7 @@ const IndexPage = ({ data }) => (
               alt="An astronaut"
             />
           </div>
-          <h3 className="m-0">Project 1</h3>
+          <h3 className="m-0">Job Dispatch</h3>
           <p className="text-gray-700 project-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
             qui natus error veritatis, commodi quae, iure quasi aliquid, libero
@@ -163,7 +240,7 @@ const IndexPage = ({ data }) => (
               alt="An astronaut"
             />
           </div>
-          <h3 className="m-0">Project 1</h3>
+          <h3 className="m-0">Meetbravely.co</h3>
           <p className="text-gray-700 project-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
             qui natus error veritatis, commodi quae, iure quasi aliquid, libero
@@ -179,7 +256,7 @@ const IndexPage = ({ data }) => (
     >
       <div className="items-center mx-auto my-12 2xl:grid 2xl:grid-cols-2">
         <div className="max-w-xl mx-auto 2xl:mx-8 xl:text-left quotes-text-block">
-          <h2 className="text-5xl">Don't take my word for it</h2>
+          <h2 className="text-5xl text-center">Don't take my word for it</h2>
           <p className="text-center text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, at
             quidem ad quaerat eaque asperiores! Natus voluptas veniam mollitia
@@ -290,7 +367,7 @@ const IndexPage = ({ data }) => (
     </section>
     <section className="grid items-center p-4 my-12 lg:gap-12 lg:p-8 lg:grid-cols-2 offering">
       <div className="mx-auto text-center lg:max-w-md offering-header">
-        <h2 className="text-5xl">Let's talk —</h2>
+        <h2 className="text-5xl text-center">Let's talk —</h2>
         <p className="max-w-lg text-lg text-gray-700">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit deserunt
           corrupti, ab provident in voluptatem officiis voluptates soluta,
@@ -391,6 +468,27 @@ export const pageQuery = graphql`
     projectImage1: file(relativePath: { eq: "project-placeholder.jpg" }) {
       ...fluidImage
     }
+    logoHomerun: file(relativePath: { eq: "homerun-logo-retina-black.png" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    logoBackbase: file(relativePath: { eq: "BB_white.png" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    logoFoxIt: file(relativePath: { eq: "fox_it_logo.png" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
   }
 `
 
@@ -403,6 +501,7 @@ export const fluidImage = graphql`
     }
   }
 `
+
 IndexPage.propTypes = {
   data: PropTypes.object,
 }
