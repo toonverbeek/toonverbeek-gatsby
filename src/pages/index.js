@@ -55,16 +55,16 @@ const IndexPage = ({ data }) => (
         Trusted by companies small and large
       </h2>
       <div className="grid justify-around max-w-screen-lg grid-cols-2 gap-1 mx-auto text-center company-images">
-        <div className="p-10 text-lg font-bold text-gray-500 rounded bg-gray-50 company-image">
+        <div className="p-4 text-lg font-bold text-gray-500 rounded md:p-10 bg-gray-50 company-image">
           Homerun
         </div>
-        <div className="p-10 text-lg font-bold text-gray-500 rounded bg-gray-50 company-image">
+        <div className="p-4 text-lg font-bold text-gray-500 rounded md:p-10 bg-gray-50 company-image">
           Backbase
         </div>
-        <div className="p-10 text-lg font-bold text-gray-500 rounded bg-gray-50 company-image">
+        <div className="p-4 text-lg font-bold text-gray-500 rounded md:p-10 bg-gray-50 company-image">
           Bravely
         </div>
-        <div className="p-10 text-lg font-bold text-gray-500 rounded bg-gray-50 company-image">
+        <div className="p-4 text-lg font-bold text-gray-500 rounded md:p-10 bg-gray-50 company-image">
           Fox-it
         </div>
       </div>
