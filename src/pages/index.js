@@ -71,7 +71,7 @@ const IndexPage = ({ data }) => (
     </section>
     <section className="max-w-screen-lg p-4 mx-auto my-12 lg:p-8 services">
       <h2 className="text-5xl text-center">
-        I help companies across the stack
+        A partner to help you realize your digital product
       </h2>
       <h3 className="max-w-lg mx-auto text-lg font-normal text-center text-gray-700 ">
         With a background in software engineering and experience as a product
