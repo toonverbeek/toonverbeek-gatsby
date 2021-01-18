@@ -125,9 +125,9 @@ const IndexPage = ({ data }) => (
               />
             </svg>
           </div>
-          <h3>Prototype & MVP</h3>
+          <h3>Development & prototyping</h3>
           <p className="text-gray-500 service-description">
-            Have an idea? I’ve been building prototypes for nearly a decade. Let
+            Have an idea? I’ve been building software for nearly a decade. Let
             me guide you through the most common pitfalls.
           </p>
         </div>
