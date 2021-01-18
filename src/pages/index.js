@@ -419,7 +419,7 @@ const IndexPage = ({ data }) => (
         </p>
         <a href="mailto:hello@toonverbeek.com?subject=Work together">
           <button
-            className="px-4 py-2 mx-auto font-semibold text-gray-100 bg-black rounded shadow-xl md:mx-8 md:my-4 md:w-auto "
+            className="px-4 py-2 mx-auto font-semibold text-gray-100 bg-gray-800 rounded shadow-xl md:mx-8 md:my-4 md:w-auto "
             type="button"
           >
             Get in touch 🚀
