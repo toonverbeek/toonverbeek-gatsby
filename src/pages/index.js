@@ -377,15 +377,15 @@ const IndexPage = ({ data }) => (
             <div className="max-w-xs p-4 m-4 mx-auto bg-white quote-container rounded-xl">
               <div className="quote-text">
                 <p>
-                  Working with Toon was an absolute pleasure. He helped us bring
+                  Working with Toon was a real pleasure. He helped us bring
                   meetbravely.co from an idea to product. Everything from
                   branding, development and setting up our learning management
                   system - Toon took care of it.
                 </p>
                 <p>
                   I would highly recommend working with Toon if you're looking
-                  for someone that not only listens to your ideas, but helps you
-                  take them to the next level.
+                  for someone that not only listens to your ideas, but works
+                  with you to expand on them.
                 </p>
               </div>
               <div className="flex items-center quote-footer">
