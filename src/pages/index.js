@@ -33,7 +33,7 @@ const IndexPage = ({ data }) => (
             <a href="#my-services">User Research</a>
           </div>
           <div className="px-4 py-2 mb-4 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn md:mb-0 md:mr-4 header-service">
-            <a href="#my-services">MVP & Prototyping</a>
+            <a href="#my-services">Development & Design</a>
           </div>
           <div className="px-4 py-2 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn header-service">
             <a href="#my-services">Product Management</a>
@@ -76,10 +76,8 @@ const IndexPage = ({ data }) => (
         manager, I love helping companies bring their product to market
         whichever way I can.
       </h3>
-      <div className="w-10 h-10 py-2 mx-auto mb-20 text-center rounded-full bg-gray-50 ">
-        👇
-      </div>
-      <div className="grid justify-center gap-4 mx-auto md:grid-cols-2 services-grid">
+
+      <div className="grid justify-center gap-4 mx-auto mt-24 md:grid-cols-2 services-grid">
         <div className="flex flex-col max-w-sm service-block">
           <div
             className="flex items-center justify-center w-12 h-12 rounded service-image-container"
@@ -417,14 +415,14 @@ const IndexPage = ({ data }) => (
         <p className="max-w-lg text-lg text-gray-700">
           Do you have a business idea? Or a product that could use an extra pair
           of hands? Users that need to be talked to? Shoot me an email and let
-          me know how I could help! Or if you just want to say hi, say hi!
+          me know how I could help! Or if you just want to say hi: hi!
         </p>
         <a href="mailto:hello@toonverbeek.com?subject=Work together">
           <button
-            className="px-4 py-2 mx-auto font-semibold text-gray-100 bg-black rounded md:mx-8 md:my-4 md:w-auto "
+            className="px-4 py-2 mx-auto font-semibold text-gray-100 bg-black rounded shadow-xl md:mx-8 md:my-4 md:w-auto "
             type="button"
           >
-            GET IN TOUCH 🚀
+            Get in touch 🚀
           </button>
         </a>
         {/* <div className="w-2/5 mx-auto">

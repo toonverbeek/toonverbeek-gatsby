@@ -17,3 +17,7 @@ p {
 .header-service:hover {
   box-shadow: 0px 4px 0px #1a1a1a;
 }
+
+header {
+  backdrop-filter: blur;
+}
