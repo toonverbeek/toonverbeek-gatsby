@@ -28,16 +28,18 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
         <main>{children}</main>
-        <footer className="flex items-center p-4 mt-24 text-gray-300 bg-black border-t border-gray-100 place-content-between">
+        <footer className="flex items-center p-4 mt-24 text-sm text-gray-900 border-t border-gray-100 place-content-between">
           <span className="ml-4">
             Toon Verbeek © {new Date().getFullYear()}
           </span>
-          <button
-            type="button"
-            className="px-4 py-2 font-bold text-white bg-yellow-500 rounded "
-          >
-            Work with me
-          </button>
+          <a href="mailto:hello@toonverbeek.com?subject=Hi!">
+            <button
+              type="button"
+              className="px-4 py-2 font-bold text-black text-opacity-75 bg-yellow-200 rounded "
+            >
+              Say hi 👋
+            </button>
+          </a>
         </footer>
       </div>
     </>

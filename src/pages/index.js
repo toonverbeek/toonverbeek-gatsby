@@ -30,13 +30,13 @@ const IndexPage = ({ data }) => (
         </p>
         <div className="flex flex-col justify-center w-full mb-5 md:flex-row header-services">
           <div className="px-4 py-2 mb-4 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn md:mb-0 md:mr-4 header-service">
-            User Research
+            <a href="#my-services">User Research</a>
           </div>
           <div className="px-4 py-2 mb-4 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn md:mb-0 md:mr-4 header-service">
-            MVP & Prototyping
+            <a href="#my-services">MVP & Prototyping</a>
           </div>
           <div className="px-4 py-2 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn header-service">
-            Product Management
+            <a href="#my-services">Product Management</a>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ const IndexPage = ({ data }) => (
         <Img
           className="mx-auto bg-contain rounded-lg "
           fluid={data.portraitToon.childImageSharp.fluid}
-          alt="An astronaut"
+          alt="A picture of me"
         />
       </div>
     </section>
@@ -198,55 +198,95 @@ const IndexPage = ({ data }) => (
       <div className="py-8 lg:px-32 ">
         <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
           <div className="relative mb-4 rounded h-96 project-image-container">
-            <Img
-              className="w-full h-full mx-auto rounded-lg"
-              fluid={data.projectImage1.childImageSharp.fluid}
-              alt="An astronaut"
-            />
+            <a href="https://jobdispatch.co?utm_source=toonverbeek.com">
+              <Img
+                className="w-full h-full mx-auto rounded-lg hover:shadow-sm"
+                fluid={data.projectImage1.childImageSharp.fluid}
+                alt="An astronaut"
+              />
+            </a>
           </div>
-          <h3 className="m-0 text-3xl">Recipeboard</h3>
+          <h3 className="mb-2 text-3xl">Recipeboard</h3>
           <p className="text-gray-700 project-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            qui natus error veritatis, commodi quae, iure quasi aliquid, libero
-            fuga quis dicta eos ipsa magnam ipsam voluptatem aliquam vitae
-            velit?
+            Recipeboard is a SaaS that I designed and built myself. Recipeboard
+            lets people manage their recipes online and share them with others,
+            while other users can copy recipes they find to their own board.
+            Later on I expanded on this concept by adding the ability to
+            subscriptions to your recipes. To validate this idea I conducted
+            user research by reaching out to recipe bloggers.
           </p>
+          <p>
+            Landing page built with Webflow. Frontend built in React and backend
+            done in Firbase and Stripe.
+          </p>
+          <a
+            href="https://recipeboard.webflow.io?utm_source=toonverbeek.com"
+            className="px-4 py-2 font-medium text-gray-700 bg-gray-100 rounded hover:bg-gray-200"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read more →
+          </a>
         </div>
       </div>
       <div className="py-8 lg:px-32 ">
         <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
           <div className="relative mb-4 rounded h-96 project-image-container">
-            <Img
-              className="w-full h-full mx-auto rounded-lg"
-              fluid={data.projectImage1.childImageSharp.fluid}
-              alt="An astronaut"
-            />
+            <a href="https://jobdispatch.co?utm_source=toonverbeek.com">
+              <Img
+                className="w-full h-full mx-auto border border-gray-100 rounded-lg hover:shadow-sm"
+                fluid={data.projectImage2.childImageSharp.fluid}
+                alt="A screenshot of the Job Dispatch UI"
+              />
+            </a>
           </div>
-          <h3 className="m-0">Job Dispatch</h3>
+          <h3 className="mb-2 text-3xl">Job Dispatch</h3>
           <p className="text-gray-700 project-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            qui natus error veritatis, commodi quae, iure quasi aliquid, libero
-            fuga quis dicta eos ipsa magnam ipsam voluptatem aliquam vitae
-            velit?
+            Job Dispatch was created out of my own need. While searching for a
+            job I spent a lot of time checking company career pages, again and
+            again. Job Dispatch started as a simple chrome extension that
+            allowed me to subscribe to companies and get an alert whenever they
+            posted a new job.
           </p>
+          <p>
+            I designed and developed the Chrome Extension. I built the backend
+            in JavaScript using Firebase Functions.
+          </p>
+          <a
+            href="https://jobdispatch.co?utm_source=toonverbeek.com"
+            className="px-4 py-2 font-medium text-gray-700 bg-gray-100 rounded hover:bg-gray-200"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read more →
+          </a>
         </div>
       </div>
       <div className="py-8 lg:px-32 ">
         <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
-          <div className="relative mb-4 rounded h-96 project-image-container">
+          <div className="relative mb-4 bg-top rounded h-96 project-image-container">
             <Img
               className="w-full h-full mx-auto rounded-lg"
-              fluid={data.projectImage1.childImageSharp.fluid}
+              fluid={data.projectImage3.childImageSharp.fluid}
               alt="An astronaut"
             />
           </div>
-          <h3 className="m-0">Meetbravely.co</h3>
+          <h3 className="mb-2 text-3xl">Meetbravely.co</h3>
           <p className="text-gray-700 project-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            qui natus error veritatis, commodi quae, iure quasi aliquid, libero
-            fuga quis dicta eos ipsa magnam ipsam voluptatem aliquam vitae
-            velit?
+            For Bravely I collaborated closely with the founders to bring their
+            services and product to the market for the first time. I worked on
+            their branding, developed their website using Webflow and set up
+            their Learning Management System so that they could sell their
+            course.
           </p>
+          <a
+            href="https://meetbravely.co?utm_source=toonverbeek.com"
+            className="px-4 py-2 font-medium text-gray-700 bg-gray-100 rounded hover:bg-gray-200"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read more →
+          </a>
         </div>
       </div>
     </section>
@@ -256,12 +296,13 @@ const IndexPage = ({ data }) => (
     >
       <div className="items-center mx-auto my-12 2xl:grid 2xl:grid-cols-2">
         <div className="max-w-xl mx-auto 2xl:mx-8 xl:text-left quotes-text-block">
-          <h2 className="text-5xl text-center">Don't take my word for it</h2>
-          <p className="text-center text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, at
-            quidem ad quaerat eaque asperiores! Natus voluptas veniam mollitia
-            vero ducimus fugiat minima, deserunt optio doloremque illo.
-            Excepturi, ex expedita.
+          <h2 className="text-5xl text-center">
+            Don't take <em>my</em> word for it
+          </h2>
+          <p className="text-lg text-center text-gray-500">
+            I've had the pleasure to work with all kinds of great people and
+            companies. Here's a few words they had to say about me about our
+            collaboration.
           </p>
         </div>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 768: 2 }}>
@@ -365,21 +406,25 @@ const IndexPage = ({ data }) => (
         </ResponsiveMasonry>
       </div>
     </section>
-    <section className="grid items-center p-4 my-12 lg:gap-12 lg:p-8 lg:grid-cols-2 offering">
+    <section
+      className="grid items-center p-4 my-12 lg:gap-12 lg:p-8 lg:grid-cols-2"
+      id="my-services"
+    >
       <div className="mx-auto text-center lg:max-w-md offering-header">
         <h2 className="text-5xl text-center">Let's talk —</h2>
         <p className="max-w-lg text-lg text-gray-700">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit deserunt
-          corrupti, ab provident in voluptatem officiis voluptates soluta,
-          perspiciatis praesentium corporis ipsum culpa ullam error consequuntur
-          voluptate quo doloribus dolores.
+          Do you have a business idea? Or a product that could use an extra pair
+          of hands? Users that need to be talked to? Shoot me an email and let
+          me know how I could help! Or if you just want to say hi, say hi!
         </p>
-        <button
-          className="px-4 py-2 mx-auto font-semibold text-gray-100 bg-black rounded md:mx-8 md:my-4 md:w-auto "
-          type="button"
-        >
-          GET IN TOUCH 🚀
-        </button>
+        <a href="mailto:hello@toonverbeek.com?subject=Work together">
+          <button
+            className="px-4 py-2 mx-auto font-semibold text-gray-100 bg-black rounded md:mx-8 md:my-4 md:w-auto "
+            type="button"
+          >
+            GET IN TOUCH 🚀
+          </button>
+        </a>
         {/* <div className="w-2/5 mx-auto">
           <div className="flex items-center gap-4 mb-4 question-block">
             <div className="w-8 h-8 bg-gray-100 rounded-sm question-image-container" />
@@ -406,7 +451,7 @@ const IndexPage = ({ data }) => (
               I’d love to hear your ideas, and I’m sure you’ll have questions
               for me too. I can give you my thoughts on your product or website.
             </p>
-            <p>Note: I only do a few of those each month.</p>
+            <p>Note that I only do a few of those each month.</p>
           </div>
         </div>
         <div className="p-4 my-2 border-2 border-black rounded-lg shadow-flat offering-container">
@@ -427,10 +472,11 @@ const IndexPage = ({ data }) => (
             1+ week
           </span>
           <div className="my-4 offering-content">
-            <h3 className="my-1 text-xl">Personal / Company website</h3>
+            <h3 className="my-1 text-xl">User Research & Interviews</h3>
             <p>
-              Don’t have a website yet? Start here. From small personal websites
-              to fully-fledged company websites.{' '}
+              Need someone to talk to your users or target audience? I can help
+              with setting up and executing interviews. We'll uncover their
+              needs and problems and translate those into personas.
             </p>
           </div>
         </div>
@@ -442,7 +488,7 @@ const IndexPage = ({ data }) => (
             <h3 className="my-1 text-xl">Product work</h3>
             <p>
               Need help with product management? Building a roadmap, setting
-              goals and defining sprints. I can help!{' '}
+              goals and defining sprints. I can help!
             </p>
           </div>
         </div>
@@ -465,7 +511,13 @@ export const pageQuery = graphql`
     portraitBarbara: file(relativePath: { eq: "barbara_galiza.jpg" }) {
       ...fluidImage
     }
-    projectImage1: file(relativePath: { eq: "project-placeholder.jpg" }) {
+    projectImage1: file(relativePath: { eq: "recipeboard.png" }) {
+      ...fluidImage
+    }
+    projectImage2: file(relativePath: { eq: "job_dispatch.png" }) {
+      ...fluidImage
+    }
+    projectImage3: file(relativePath: { eq: "bravely.png" }) {
       ...fluidImage
     }
     logoHomerun: file(relativePath: { eq: "homerun-logo-retina-black.png" }) {
