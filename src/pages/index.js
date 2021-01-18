@@ -25,8 +25,8 @@ const IndexPage = ({ data }) => (
           Let's build something together
         </h1>
         <p className="max-w-xl text-xl leading-relaxed text-gray-600 header-subtitle">
-          I’m a product engineer that helps people and companies build MVPs and
-          websites, automate processes and product management work.
+          I’m a product engineer that helps people and companies build and
+          design MVPs, automate processes and product management work.
         </p>
         <div className="flex flex-col justify-center w-full mb-5 md:flex-row header-services">
           <div className="px-4 py-2 mb-4 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn md:mb-0 md:mr-4 header-service">
