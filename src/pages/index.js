@@ -101,7 +101,9 @@ const IndexPage = ({ data }) => (
           <h3>User Research & Interviews</h3>
           <p className="text-gray-500 service-description">
             I've spent a lot of time talking to users. My goal is to help you
-            understand their problems and their motivations.
+            understand their problems and their motivations. I'm comfortable
+            collaborating across the org so that everyone has access to the same
+            insights
           </p>
         </div>
         <div className="flex flex-col max-w-sm service-block">
