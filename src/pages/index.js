@@ -16,17 +16,19 @@ const IndexPage = ({ data }) => (
           <span className="w-full text-lg font-bold text-center">TV</span>
         </div>
         <span className="font-semibold text-gray-700 ">
-          Hi there 👋 I'm Toon
+          Hi there 👋 — I'm Toon
         </span>
         <h1
           style={{ lineHeight: 1.3 }}
           className="text-5xl font-black text-black leading md:text-6xl header-title"
         >
-          Let's build something together
+          I help companies build and design software
         </h1>
         <p className="max-w-xl text-xl leading-relaxed text-gray-600 header-subtitle">
-          I’m a product engineer that helps people and companies build and
-          design MVPs, automate processes and product management work.
+          I’m a freelance product manager and engineer with a love for building
+          digital products users love. I design MVPs, build software, automate
+          processes and work with other specialists to bring new products to
+          market.
         </p>
         <div className="flex flex-col justify-center w-full mb-5 md:flex-row header-services">
           <div className="px-4 py-2 mb-4 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn md:mb-0 md:mr-4 header-service">
@@ -40,7 +42,7 @@ const IndexPage = ({ data }) => (
           </div>
         </div>
       </div>
-      <div className="p-4 m-auto hero-image-container md:w-3/5">
+      <div className="max-w-lg p-4 m-auto hero-image-container md:w-2/5">
         <Img
           className="mx-auto bg-contain rounded-lg "
           fluid={data.portraitToon.childImageSharp.fluid}
