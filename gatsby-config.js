@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Toon Verbeek`,
-    description: `I’m a product engineer that helps people and companies build and design MVPs, automate processes and product management work.`,
+    description: `I’m a freelance product manager and engineer with a love for building digital products users love.`,
     author: `@toonverbeek`,
+    image: 'images/toon-portrait-small.jpg',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
