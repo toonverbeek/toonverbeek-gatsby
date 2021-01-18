@@ -303,7 +303,7 @@ const IndexPage = ({ data }) => (
           </h2>
           <p className="text-lg text-center text-gray-500">
             I've had the pleasure to work with all kinds of great people and
-            companies. Here's a few words they had to say about me about our
+            companies. Here's a few words they had to say about me and about our
             collaboration.
           </p>
         </div>
