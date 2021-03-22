@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
           </Link>
         </h1>
       </div>
-      <div className="flex">
+      <div className="flex items-center">
         <a href="https://twitter.com/tonnusos" target="_blank" rel="noreferrer">
           <svg
             height="20"
@@ -57,6 +57,12 @@ const Header = ({ siteTitle }) => (
             />
           </svg>
         </a>
+        <Link
+          to="https://blog.toonverbeek.com"
+          className="px-4 py-2 ml-4 text-white rounded-sm bg-blue-gray-800 hover:bg-blue-gray-700"
+        >
+          Blog
+        </Link>
       </div>
     </div>
   </header>
