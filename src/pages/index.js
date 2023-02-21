@@ -25,10 +25,9 @@ const IndexPage = ({ data }) => (
           I help companies build and design software
         </h1>
         <p className="max-w-xl text-xl leading-relaxed text-gray-600 header-subtitle">
-          I’m a freelance product manager and engineer with a love for building
-          digital products users love. I design MVPs, build software, automate
-          processes and work with other specialists to bring new products to
-          market.
+          I’m a freelance product engineer with a love for building digital
+          products users love. I design MVPs, build software, automate processes
+          and work with other specialists to bring new products to market.
         </p>
         <div className="flex flex-col justify-center w-full mb-5 md:flex-row header-services">
           <div className="px-4 py-2 mb-4 font-bold transition-shadow duration-200 ease-in-out border-2 border-black rounded-lg cursor-pointer bg-gray-50 shadow-btn md:mb-0 md:mr-4 header-service">
