@@ -198,7 +198,100 @@ const IndexPage = ({ data }) => (
       <h2 className="mb-4 text-5xl font-black text-center">Projects —</h2>
       {/* <h3 className="text-4xl text-center">I've worked on a few</h3> */}
       <div className="py-8 lg:px-32 ">
-        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-gray-800 rounded shadow-flat project">
+          <div className="relative mb-4 rounded h-96">
+            <a href="https://jobwatchr.com?utm_source=toonverbeek.com">
+              <Img
+                className="w-full h-full mx-auto rounded-lg hover:shadow-sm"
+                fluid={data.projectImage5.childImageSharp.fluid}
+                alt="A picture of the jobwatchr live feed. It shows a list of jobs that match the user's job alert."
+              />
+            </a>
+          </div>
+          <h3 className="mb-2 text-3xl">jobwatchr.com</h3>
+          <p className="text-gray-700 project-content">
+            I built another job search tool called jobwatchr. I've been
+            following the recent layoffs and it made me curious how quickly
+            companies would publish new job openings post-layoffs. So I built a
+            live feed that tracks jobs opened in the last 24h 👀
+          </p>
+          <p>
+            Technologies used: NextJS, React, Redis, Postgres, BullMQ, NodeJS,
+            Express
+          </p>
+          <a
+            href="https://recipeboard.webflow.io?utm_source=toonverbeek.com"
+            className="px-4 py-2 font-medium text-gray-700 bg-gray-100 rounded hover:bg-gray-200"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read more →
+          </a>
+        </div>
+      </div>
+      <div className="py-8 lg:px-32 ">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-gray-800 rounded shadow-flat project">
+          <div className="relative mb-4 rounded h-96">
+            <a href="https://getdime.co?utm_source=toonverbeek.com">
+              <Img
+                className="w-full h-full mx-auto rounded-lg hover:shadow-sm"
+                fluid={data.projectImage6.childImageSharp.fluid}
+                alt="A picture of the getdime.co homepage with an example invoice"
+              />
+            </a>
+          </div>
+          <h3 className="mb-2 text-3xl">Dime</h3>
+          <p className="text-gray-700 project-content">
+            I'm a freelance product engineer and I built Dime to scratch my own
+            itch. So many other accounting tools out there have a dated design,
+            have a ton of features I don't need, or are too expensive 🤷‍♂️. Dime
+            is just an invoicing tool. What it's not is an accounting solution,
+            difficult to use or (hopefully) boring. I'd like Dime to be a
+            simple, privacy friendly, and free alternative.
+          </p>
+          <p>Technologies used: NextJS, React, Tailwind, Midjourney</p>
+          <a
+            href="https://getdime.co?utm_source=toonverbeek.com"
+            className="px-4 py-2 font-medium text-gray-700 bg-gray-100 rounded hover:bg-gray-200"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read more →
+          </a>
+        </div>
+      </div>
+      <div className="py-8 lg:px-32 ">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-gray-800 rounded shadow-flat project">
+          <div className="relative mb-4 rounded h-96">
+            <a href="https://horta.io?utm_source=toonverbeek.com">
+              <Img
+                className="w-full h-full mx-auto rounded-lg hover:shadow-sm"
+                fluid={data.projectImage4.childImageSharp.fluid}
+                alt="A picture of a job alert"
+              />
+            </a>
+          </div>
+          <h3 className="mb-2 text-3xl">Horta.io</h3>
+          <p className="text-gray-700 project-content">
+            I'm the co-founder of Horta.io, a startup that helps recruiters grow
+            a talent pool by utilizing job alerts.
+          </p>
+          <p>
+            Technologies used: NextJS, React, Tailwind, Node, Firebase and
+            Stripe.
+          </p>
+          <a
+            href="https://horta.io?utm_source=toonverbeek.com"
+            className="px-4 py-2 font-medium text-gray-700 bg-gray-100 rounded hover:bg-gray-200"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read more →
+          </a>
+        </div>
+      </div>
+      <div className="py-8 lg:px-32 ">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-gray-800 rounded shadow-flat project">
           <div className="relative mb-4 rounded h-96 project-image-container">
             <a href="https://jobdispatch.co?utm_source=toonverbeek.com">
               <Img
@@ -232,7 +325,7 @@ const IndexPage = ({ data }) => (
         </div>
       </div>
       <div className="py-8 lg:px-32 ">
-        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-gray-800 rounded shadow-flat project">
           <div className="relative mb-4 rounded h-96 project-image-container">
             <a href="https://jobdispatch.co?utm_source=toonverbeek.com">
               <Img
@@ -265,7 +358,7 @@ const IndexPage = ({ data }) => (
         </div>
       </div>
       <div className="py-8 lg:px-32 ">
-        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-black rounded shadow-flat project">
+        <div className="max-w-4xl p-4 mx-auto bg-white border-2 border-gray-800 rounded shadow-flat project">
           <div className="relative mb-4 bg-top rounded h-96 project-image-container">
             <Img
               className="w-full h-full mx-auto rounded-lg"
@@ -301,7 +394,7 @@ const IndexPage = ({ data }) => (
           <h2 className="text-5xl text-center">
             Don't take <em>my</em> word for it
           </h2>
-          <p className="text-lg text-center text-gray-500">
+          <p className="text-lg text-center text-gray-900/80">
             I've had the pleasure to work with all kinds of great people and
             companies. Here's a few words they had to say about me and about our
             collaboration.
@@ -310,6 +403,33 @@ const IndexPage = ({ data }) => (
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 768: 2 }}>
           <Masonry className="max-w-2xl mx-auto">
             <div className="max-w-xs p-4 m-4 mx-auto bg-white quote-container rounded-xl">
+              <div className="quote-text">
+                <p>
+                  Things constantly change in a startup and the best people can
+                  shine in that kind of an environment. Toon is one of them.
+                </p>
+                <p>
+                  He's able to not just deliver on a list of requirements, but
+                  shape a product together with the team as we discover the best
+                  solution to a user problem.
+                </p>
+                <p>I couldn't recommend Toon more.</p>
+              </div>
+              <div className="flex items-center quote-footer">
+                <div className="relative w-20 mr-4 quote-footer-image-container">
+                  <Img
+                    className="absolute w-full bg-cover rounded-lg"
+                    fluid={data.portraitRobert.childImageSharp.fluid}
+                    alt="preview of project"
+                  />
+                </div>
+                <div className="flex flex-col w-full quote-footer-name">
+                  <span className="font-bold">Robert Gaal</span>
+                  <span>Founder, Quest (YC21)</span>
+                </div>
+              </div>
+            </div>
+            <div className="max-w-xs p-4 m-4 mx-auto bg-white md:mt-16 quote-container rounded-xl">
               <div className="quote-text">
                 <p>
                   I first met Toon when I joined Homerun for a growth project
@@ -340,7 +460,7 @@ const IndexPage = ({ data }) => (
                 </div>
               </div>
             </div>
-            <div className="max-w-xs p-4 m-4 mx-auto bg-white quote-container md:mt-16 rounded-xl">
+            <div className="max-w-xs p-4 m-4 mx-auto bg-white quote-container rounded-xl">
               <div className="quote-text">
                 <p>
                   I worked with Toon at Homerun for a very enjoyable 1,5 years.
@@ -513,6 +633,9 @@ export const pageQuery = graphql`
     portraitBarbara: file(relativePath: { eq: "barbara_galiza.jpg" }) {
       ...fluidImage
     }
+    portraitRobert: file(relativePath: { eq: "robert_gaal.jpeg" }) {
+      ...fluidImage
+    }
     projectImage1: file(relativePath: { eq: "recipeboard.png" }) {
       ...fluidImage
     }
@@ -520,6 +643,17 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     projectImage3: file(relativePath: { eq: "bravely.png" }) {
+      ...fluidImage
+    }
+    projectImage4: file(
+      relativePath: { eq: "feature-job-alert-page-stylized.png" }
+    ) {
+      ...fluidImage
+    }
+    projectImage5: file(relativePath: { eq: "jobwatchr-social-dark.png" }) {
+      ...fluidImage
+    }
+    projectImage6: file(relativePath: { eq: "dime-social.png" }) {
       ...fluidImage
     }
     logoHomerun: file(relativePath: { eq: "homerun-logo-retina-black.png" }) {
